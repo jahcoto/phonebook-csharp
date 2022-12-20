@@ -63,8 +63,8 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(96, 47);
-            this.toolStripButton1.Text = "Register Data";
+            this.toolStripButton1.Size = new System.Drawing.Size(119, 47);
+            this.toolStripButton1.Text = "Register Data (F2)";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripButton5
@@ -72,8 +72,9 @@
             this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
             this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(62, 47);
-            this.toolStripButton5.Text = "Search";
+            this.toolStripButton5.Size = new System.Drawing.Size(85, 47);
+            this.toolStripButton5.Text = "Search (F3)";
+            this.toolStripButton5.ToolTipText = "Search (F3)";
             this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
             // toolStripButton4
@@ -81,8 +82,8 @@
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(81, 47);
-            this.toolStripButton4.Text = "Calculator";
+            this.toolStripButton4.Size = new System.Drawing.Size(104, 47);
+            this.toolStripButton4.Text = "Calculator (F4)";
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // toolStripButton3
@@ -90,8 +91,8 @@
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(76, 47);
-            this.toolStripButton3.Text = "About Us";
+            this.toolStripButton3.Size = new System.Drawing.Size(99, 47);
+            this.toolStripButton3.Text = "About Us (F5)";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // toolStripButton2
@@ -100,8 +101,8 @@
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(46, 47);
-            this.toolStripButton2.Text = "Exit";
+            this.toolStripButton2.Size = new System.Drawing.Size(77, 47);
+            this.toolStripButton2.Text = "Exit (ESC)";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripSeparator1
@@ -139,6 +140,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PhoneBook Agend";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
